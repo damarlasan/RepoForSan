@@ -1,0 +1,5 @@
+version: 0.0
+os: windows
+files:
+  - source: \                # Source file or folder in Bitbucket repo
+    destination: C:\temp\Deployed\    # Destination path on the EC2 instance
