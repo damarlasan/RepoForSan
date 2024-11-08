@@ -18,6 +18,6 @@ files:
 
 hooks:
   ApplicationStart:
-    - location: C:\temp\deployed\startup_service.bat
+    - location: C:\temp\Deployed\startup_service.bat
       timeout: 300
       runas: SYSTEM
