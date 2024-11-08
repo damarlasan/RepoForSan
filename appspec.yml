@@ -17,7 +17,7 @@ files:
     destination: C:\temp\Deployed\static\
 
 hooks:
-  ApplicationStart:
+  AfterInstall:
     - location: C:\temp\Deployed\startup_service.bat
       timeout: 300
       runas: SYSTEM
