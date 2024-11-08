@@ -1,15 +1,15 @@
 version: 0.0
 os: windows
 files:
-  - source: \server.js
+  - source: /server.js
     destination: C:\temp\Deployed\server.js
-  - source: \startup_service.bat
+  - source: /startup_service.bat
     destination: C:\temp\Deployed\startup_service.bat
-  - source: \manifest.json
+  - source: /manifest.json
     destination: C:\temp\Deployed\manifest.json
-  - source: \package.json
+  - source: /package.json
     destination: C:\temp\Deployed\package.json
-  - source: \package-lock.json
+  - source: /package-lock.json
     destination: C:\temp\Deployed\package-lock.json
   - source: \node_modules\
     destination: C:\temp\Deployed\node_modules\
