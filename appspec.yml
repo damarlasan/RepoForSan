@@ -21,4 +21,4 @@ hooks:
   AfterInstall:
     - location: 'C:\temp\Deployed\startup_service.bat'
       timeout: 300
-      runas: SYSTEM
+      runas: ADMINISTRATOR
