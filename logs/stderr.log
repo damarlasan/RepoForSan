@@ -1,0 +1,24 @@
+ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+ReferenceError: res is not defined
+    at C:\TEMP\NodeJSWorking\server.js:50:3
+    at Layer.handle [as handle_request] (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\layer.js:95:5)
+    at C:\TEMP\NodeJSWorking\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\index.js:280:10)
+    at C:\TEMP\NodeJSWorking\server.js:42:3
+    at Layer.handle [as handle_request] (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\layer.js:95:5)
+ReferenceError: res is not defined
+    at C:\TEMP\NodeJSWorking\server.js:50:3
+    at Layer.handle [as handle_request] (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\layer.js:95:5)
+    at C:\TEMP\NodeJSWorking\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\index.js:280:10)
+    at C:\TEMP\NodeJSWorking\server.js:42:3
+    at Layer.handle [as handle_request] (C:\TEMP\NodeJSWorking\node_modules\express\lib\router\layer.js:95:5)
