@@ -1,24 +1,24 @@
-version: 0.0
+version: 0
 os: windows
 files:
   - source: /server.js
-    destination: C:\temp\Deployed\
+    destination: 'C:\temp\Deployed\'
   - source: /startup_service.bat
-    destination: C:\temp\Deployed\
+    destination: 'C:\temp\Deployed\'
   - source: /manifest.json
-    destination: C:\temp\Deployed\
+    destination: 'C:\temp\Deployed\'
   - source: /package.json
-    destination: C:\temp\Deployed\
+    destination: 'C:\temp\Deployed\'
   - source: /package-lock.json
-    destination: C:\temp\Deployed\
+    destination: 'C:\temp\Deployed\'
   - source: \node_modules\
-    destination: C:\temp\Deployed\node_modules\
+    destination: 'C:\temp\Deployed\node_modules\'
   - source: \static\
-    destination: C:\temp\Deployed\static\
+    destination: 'C:\temp\Deployed\static\'
   - source: /appspec.yml
-    destination: C:\temp\Deployed\
+    destination: 'C:\temp\Deployed\'
 hooks:
   AfterInstall:
-    - location: C:\temp\Deployed\startup_service.bat
+    - location: 'C:\temp\Deployed\startup_service.bat'
       timeout: 300
       runas: SYSTEM
