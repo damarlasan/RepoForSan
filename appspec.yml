@@ -15,3 +15,9 @@ files:
     destination: C:\temp\Deployed\node_modules\
   - source: \static\
     destination: C:\temp\Deployed\static\
+
+hooks:
+  ApplicationStart:
+    - location: C:\temp\deployed\startup_service.bat
+      timeout: 300
+      runas: SYSTEM
