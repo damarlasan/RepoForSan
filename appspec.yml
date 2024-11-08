@@ -15,6 +15,8 @@ files:
     destination: C:\temp\Deployed\node_modules\
   - source: \static\
     destination: C:\temp\Deployed\static\
+  - source: /appspec.yml
+    destination: C:\temp\Deployed\
 
 hooks:
   AfterInstall:
